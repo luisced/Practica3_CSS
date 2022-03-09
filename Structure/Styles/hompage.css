@@ -1,0 +1,165 @@
+/* html elements */
+
+a {
+	text-decoration: none;
+}
+
+/* Contenedores */
+.Container {
+	display: flex;
+	padding-top: 45px;
+	flex-direction: row;
+	position: relatives;
+	top: 0%;
+	bottom: 0%;
+	right: 0%;
+	left: 10%;
+	padding-bottom: 25px;
+	border-bottom: #1f3e72 solid 1px;
+}
+
+/* Clases de banner superior */
+.Vaccination_banner {
+	position: relative;
+	font-size: 30px;
+	left: 100px;
+	margin-right: 0%;
+	color: #3757d5;
+	font-family: "Lato", sans-serif;
+	font-weight: 900;
+}
+
+.links {
+	color: #6d7b93;
+	position: relative;
+	top: 5px;
+	font-family: "Lato", sans-serif;
+	font-weight: 700;
+}
+
+.Database {
+	position: relative;
+	left: 480px;
+}
+
+.Education {
+	position: relative;
+	left: 540px;
+}
+
+.News {
+	position: relative;
+	left: 600px;
+}
+
+.Regulation {
+	position: relative;
+	left: 660px;
+}
+
+.HoaxBuster {
+	position: relative;
+	left: 720px;
+	top: -10px;
+	background-color: #3656d4;
+	color: white;
+	width: 150px;
+	height: 40px;
+	border-radius: 5px;
+	text-align: center;
+	padding-top: 15px;
+	box-shadow: 5px 0px 20px #b8c7ee;
+}
+
+/* Side image class */
+
+.image {
+	width: 600px;
+	height: 500px;
+	position: relative;
+	object-fit: cover;
+	border: 50px solid #fff;
+	left: 1000px;
+}
+
+/* Text in landing page */
+
+.Title {
+	position: relative;
+	left: 100px;
+	top: -500px;
+	font-family: "Lato", sans-serif;
+}
+
+.Header {
+	margin: 0%;
+	border: 0%;
+	color: #1f3e72;
+	font-size: 60px;
+}
+
+.Title p {
+	font-family: "Lato", sans-serif;
+	font-weight: 400;
+	color: #6d7b93;
+}
+
+/* Button */
+
+.Vaccination_text {
+	position: relative;
+	left: 100px;
+	top: -480px;
+	font-family: "Lato", sans-serif;
+	font-weight: 700;
+	color: #375381;
+	font-size: 15px;
+}
+
+.ButtonContainer {
+	top: -480px;
+	position: relative;
+	display: flex;
+	flex-direction: row;
+}
+
+.BestProtection {
+	font-family: "Lato", sans-serif;
+	position: relative;
+	left: 125px;
+	font-weight: 700;
+	color: #375381;
+	font-size: 16px;
+}
+
+.Shield {
+	width: 3.5%;
+	position: relative;
+	left: 100px;
+	top: 25px;
+	border: 1.4px solid #3757d5;
+	border-radius: 50%;
+	background-color: #3757d5;
+	border-radius: 1px;
+}
+
+.SelectedVaccine {
+	font-family: "Lato", sans-serif;
+	position: relative;
+	left: -185px;
+	top: 3px;
+	font-weight: 700;
+	color: #375381;
+	font-size: 16px;
+}
+
+.Star {
+	width: 3.5%;
+	border: 1.4px solid #db8d1f;
+	background-color: #db8d1f;
+
+	border-radius: 10%;
+	position: relative;
+	left: -210px;
+	top: 28px;
+}
