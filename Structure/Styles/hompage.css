@@ -1,0 +1,471 @@
+/* html elements */
+
+a {
+	text-decoration: none;
+}
+
+body {
+	position: absolute;
+	margin-top: 0%;
+}
+
+/* Doctor Image */
+
+.content {
+	width: 2000px;
+	height: 200px;
+}
+
+.Image {
+	position: absolute;
+	border: 0px;
+	margin: 0px;
+	padding: 0px;
+	width: 700px;
+	height: 1040px;
+	left: 780px;
+	top: 0px;
+	object-fit: cover;
+}
+
+/* Contenedores */
+.Container {
+	display: flex;
+	padding-top: 45px;
+	flex-direction: row;
+	position: relatives;
+	top: 0px;
+	bottom: 0%;
+	right: 0%;
+	left: 10%;
+	padding-bottom: 25px;
+	background-color: #fff;
+	opacity: 0.97;
+}
+
+/* Clases de banner superior */
+.Vaccination_banner {
+	position: relative;
+	font-size: 30px;
+	left: 100px;
+	margin-right: 0%;
+	color: #3757d5;
+	font-family: "Lato", sans-serif;
+	font-weight: 900;
+}
+
+.links {
+	color: #6d7b93;
+	position: relative;
+	top: 5px;
+	font-family: "Lato", sans-serif;
+	font-weight: 700;
+}
+
+.links:hover {
+	color: #3757d5;
+}
+
+.Database {
+	position: relative;
+	left: 480px;
+}
+
+.Education {
+	position: relative;
+	left: 540px;
+}
+
+.News {
+	position: relative;
+	left: 600px;
+}
+
+.Regulation {
+	position: relative;
+	left: 660px;
+}
+
+.HoaxBuster {
+	position: relative;
+	left: 720px;
+	top: -10px;
+	background-color: #3656d4;
+	color: white;
+	width: 150px;
+	height: 40px;
+	border-radius: 5px;
+	text-align: center;
+	padding-top: 15px;
+	box-shadow: 5px 0px 20px #b8c7ee;
+}
+
+.HoaxBuster:hover {
+	background-color: #6c83dc;
+	color: white;
+}
+
+/* Text in landing page */
+
+.Title {
+	position: relative;
+	left: 100px;
+	top: 150px;
+	font-family: "Lato", sans-serif;
+}
+
+.Header {
+	margin: 0%;
+	border: 0%;
+	color: #1f3e72;
+	font-size: 60px;
+}
+
+.Title p {
+	font-family: "Lato", sans-serif;
+	font-weight: 400;
+	color: #6d7b93;
+	text-align: justify;
+}
+
+.Vaccination_text {
+	position: relative;
+	left: 100px;
+	top: -480px;
+	font-family: "Lato", sans-serif;
+	font-weight: 700;
+	color: #375381;
+	font-size: 20px;
+}
+
+/* Button */
+
+.ButtonContainer {
+	top: 200px;
+	position: relative;
+	display: flex;
+	flex-direction: row;
+}
+
+.BestProtection {
+	font-family: "Lato", sans-serif;
+	position: relative;
+	top: -15px;
+	left: 125px;
+	font-weight: 700;
+	color: #375381;
+	font-size: 16px;
+}
+
+.Shield {
+	width: 3.5%;
+	position: relative;
+	left: 100px;
+	top: 25px;
+	border: 1.4px solid #3757d5;
+	background-color: #3757d5;
+	border-radius: 10%;
+	box-shadow: #1f3e72 0px 0px 3px;
+}
+
+.SelectedVaccine {
+	font-family: "Lato", sans-serif;
+	position: relative;
+	left: -185px;
+	top: -15px;
+	font-weight: 700;
+	color: #375381;
+	font-size: 16px;
+}
+
+.Star {
+	width: 3.5%;
+	position: relative;
+	left: -210px;
+	top: 25px;
+	border: 1.4px solid #db8d1f;
+	background-color: #db8d1f;
+	border-radius: 10%;
+	box-shadow: #db8d1f 0px 0px 3px;
+}
+
+/* Shedule banner */
+
+.ScheduleText {
+	position: relative;
+	left: 135px;
+	top: 200px;
+	font-family: "Lato", sans-serif;
+	font-weight: 900;
+	color: #1f3e72;
+	font-size: 23px;
+}
+
+.Clock {
+	width: 20px;
+	position: relative;
+	left: 100px;
+	top: 255px;
+	border: 1.4px solid #3757d5;
+	border-radius: 50%;
+	background-color: #3757d5;
+	box-shadow: #6d7b93 0px 0px 3px;
+}
+
+/* Form */
+
+.Form {
+	position: relative;
+	top: 200px;
+	left: 100px;
+	display: flex;
+	flex-direction: row;
+	border-radius: 5px;
+	box-shadow: rgba(226, 235, 250, 255) 20px 20px 45px 10px;
+	padding: 50px;
+	width: 850px;
+	height: 100px;
+	background-color: white;
+	opacity: 0.97;
+}
+
+.FormP {
+	position: relative;
+	font-family: "Lato", sans-serif;
+	font-weight: 700;
+	color: #6d7b93;
+	font-size: 20px;
+}
+
+/* Inputs and images */
+
+.LocationImage {
+	width: 20px;
+	position: relative;
+	left: -5px;
+	top: 20px;
+	border: 1.4px solid #3757d5;
+	border-radius: 50%;
+	background-color: #3757d5;
+	box-shadow: #6d7b93 0px 0px 3px;
+}
+
+.Location {
+	position: relative;
+	left: 25px;
+	top: -30px;
+	font-family: "Lato", sans-serif;
+	font-weight: 700;
+	color: #1f3e72;
+}
+
+#LocationInput {
+	border: 0px;
+	border-radius: 5px;
+	background-color: #fff;
+	box-shadow: #6d7b93 0px 0px 3px;
+}
+
+.CalendarImage {
+	width: 20px;
+	position: relative;
+	left: 40px;
+	top: -70px;
+	border: 1.4px solid #3757d5;
+	border-radius: 50%;
+	background-color: #3757d5;
+	box-shadow: #6d7b93 0px 0px 3px;
+}
+
+.Date {
+	position: relative;
+	left: 205px;
+	top: -120px;
+	font-family: "Lato", sans-serif;
+	font-weight: 700;
+	color: #1f3e72;
+}
+
+#DateInput {
+	position: relative;
+	top: -122px;
+	border: 0px;
+	border-radius: 5px;
+	background-color: #fff;
+	box-shadow: #6d7b93 0px 0px 3px;
+}
+
+.VaccineType {
+	position: relative;
+	font-family: "Lato", sans-serif;
+	font-weight: 700;
+	color: #1f3e72;
+	left: 450px;
+	top: -212px;
+}
+
+.VaccineTypes {
+	position: relative;
+	left: 450px;
+	top: -225px;
+	font-family: "Lato", sans-serif;
+	font-weight: 700;
+	color: #1f3e72;
+	box-shadow: #6d7b93 0px 0px 3px;
+	background-color: #fff;
+	border-radius: 5px;
+	border: 0px;
+}
+
+.VaccineImage {
+	width: 20px;
+	position: relative;
+	left: 230px;
+	top: -160px;
+	border: 1.4px solid #3757d5;
+	border-radius: 50%;
+	background-color: #3757d5;
+	box-shadow: #6d7b93 0px 0px 3px;
+}
+
+.Submit {
+	position: relative;
+	left: 510px;
+	top: -230px;
+	width: 120px;
+	height: 55px;
+	background-color: #3757d5;
+	border-radius: 2px;
+	border: #3757d5;
+	font-family: "Lato", sans-serif;
+	font-size: 400;
+	color: #fff;
+	box-shadow: #b8c7ee 5px 10px 10px;
+}
+
+.Submit:hover {
+	background-color: #3757d5;
+}
+
+.Vaccines {
+	position: relative;
+	left: 250px;
+	top: 50px;
+	width: 40%;
+	height: 40%;
+}
+
+.TriangleContainer {
+	width: 0;
+	height: 0;
+	border-style: solid;
+	border-width: 0 90px 90px 90px;
+	border-color: transparent transparent #f4f6fb transparent;
+	position: relative;
+	top: -676px;
+	left: 50px;
+	transform: rotate(180deg);
+}
+
+.One {
+	width: 0;
+	height: 0;
+	border-style: solid;
+	border-width: 0 120px 120px 120px;
+	border-color: transparent transparent #f4f6fb transparent;
+	position: relative;
+	top: -310px;
+	left: 600px;
+	transform: rotate(270deg);
+}
+
+/* Second section */
+
+.SecondContainer {
+	position: relative;
+	top: 90px;
+	left: 100px;
+	width: 100%;
+	height: 100%;
+	margin-bottom: 0%;
+	border-bottom: 0%;
+}
+
+.Why {
+	position: relative;
+	font-family: "Lato", sans-serif;
+	font-weight: 900;
+	color: #1f3e72;
+	font-size: 40px;
+	height: 10px;
+}
+
+.Explanation {
+	position: relative;
+	font-family: "Lato", sans-serif;
+	font-weight: 400;
+	color: #6d7b93;
+	font-size: 20px;
+	margin: 5px;
+}
+/* Boxes */
+
+.Characteristics {
+	margin-top: 0px;
+	margin-bottom: 0%;
+	position: absolute;
+	display: flex;
+	flex-direction: row;
+	align-items: baseline;
+}
+
+.Box {
+	position: relative;
+	top: 50px;
+	left: 90px;
+	width: 240px;
+	height: 300px;
+	bottom: 100px;
+	border-radius: 5px;
+	background-color: #fff;
+	box-shadow: #c5c9d0 0px 0px 1.8px;
+	object-fit: contain;
+	margin-top: 0px;
+	margin-right: 50px;
+}
+
+.Box:hover {
+	box-shadow: #b8c7ee 1px 2px 30px;
+	top: 20px;
+}
+
+.MiniTitle {
+	position: relative;
+	font-family: "Lato", sans-serif;
+	font-weight: 700;
+	color: #1f3e72;
+	font-size: 20px;
+	margin: 3px;
+	left: 15px;
+	top: 40px;
+}
+
+.CharacteristicsText {
+	position: relative;
+	top: 59px;
+	font-family: "Lato", sans-serif;
+	font-weight: 400;
+	color: #6d7b93;
+	font-size: 15px;
+	left: 15px;
+}
+
+.BoxImage {
+	position: relative;
+	top: 30px;
+	left: 15px;
+	width: 50px;
+	border-radius: 50%;
+	background-color: #3757d5;
+	box-shadow: #6d7b93 2px 0px 5px;
+}
