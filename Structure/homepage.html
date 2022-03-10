@@ -11,6 +11,14 @@
 <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap" rel="stylesheet">
 </head>
 <body>
+    <div class="content">
+
+
+    <section>
+        <img src="./Assets/doctor.jpg" alt="doctor" class="Image">
+    </section>
+
+
     <section class="Container">
         <a href="">
             <div class="Vaccination_banner">Vaccination</div>
@@ -32,7 +40,6 @@
         </a>
     </section>
 
-            <img src="./Assets/doctor.jpg" alt="doctor" class="image">
 
     <section class="Title">
         <h1 class="Header">Fight Virus</h1>
@@ -44,58 +51,109 @@
     
 
     <section class="ButtonContainer">
-        <a href="">
+        <a href="" class="ShieldButton">
             <img src="./Assets/shield.png" alt="" class="Shield">
-            <div class="BestProtection">
+            <p class="BestProtection">
                 Best Protection
-            </div>
+            </p>
         </a>
-        <a href="">
+        <a href="" class="StarButton">
             <img src="./Assets/star.png" alt="" class="Star">
-            <div class="SelectedVaccine">
+            <p class="SelectedVaccine">
                 Selected Vaccines
-            </div>
+            </p>
         </a>
     </section>
 
-
-
-<!-- 
     <section class="Shedule">
-        <button>Shedule your Vaccination</button>
+        <a href="">
+            <img src="./Assets/clock.png" alt="" class ="Clock">
+            <p class="ScheduleText">Schedule your vaccinations</p>
+        </a>
     </section>
 
     <section class="Form">
 
         <form action="">
-            <div></div>
-            Location<select name="Location" id="location">
+            <img src="./Assets/location.png" alt="Location" class="LocationImage">
+            <p class="FormP Location">Location</p>
+            <select name="Location"  class="Location" id="LocationInput">
                 <option value="mexico">Mexico</option>
                 <option value="eu">United Stated</option>
                 <option value="canada">Canada</option>
                 <option value="japan">Japan</option>
                 <option value="argentina">argentina</option>
             </select>
-            <label for="Date">Date</label>
-            <input type="date" name="Date" id="date">
-            Vaccine Type <select name="Vaccine_Type" id="vtype">
+            <img src="./Assets/calendar.png" alt="Calendar" class="CalendarImage">
+            <p class="FormP Date" >Date</p>
+            <input type="date" name="Date" class="Date" id="DateInput">
+            <img src="./Assets/vaccine.png" alt="Vaccine" class="VaccineImage">
+            <p class="FormP VaccineType">Vaccine Type</p>
+             <select name="VaccineType" class="VaccineTypes">
                 <option value="moderna">Moderna</option>
                 <option value="pfizer">Pfizer</option>
                 <option value="aztrazeneca">Astra Zeneca</option>
                 <option value="Sinovac">Sinovac</option>
-            </select>            
+            </select>
+            <button type="submit" class="Submit" title="submit your data">Submit</button> 
         </form>
     </section>
-
-    <section class="VaccineImages">
-        <div></div>
-    </section> -->
-
     
+    <section >
+        <div class="TriangleContainer"></div>
+        <div class="One"></div>
+    </section>
 
+        <footer>
+            <img src="./Assets/Captura de pantalla 2022-03-09 173627.png" alt="allthevaccines" class="Vaccines">
+        </footer>
 
+    <section class="SecondContainer">
+        <h2 class="Why">Why should I vaccine?</h2>
+        <p class="Explanation">In order to avoid any doubts about gertting the COVID-19</p>
+        <p class="Explanation">vaccine, identify the following reasons 4 benefits of COVID-19</p>
+        <p class="Explanation">vaccination:</p>
+    </section>
 
+    <section class="Characteristics">
+        <div class="Box">
+            <img src="./Assets/coronavirus.png" alt="coronavirus" class="BoxImage" id="boximage">
+            <h3 class="MiniTitle">Minimize the</h3>
+            <h3 class="MiniTitle">spread of viruses</h3>
+            <p class="CharacteristicsText">Vaccine has been proven</p>
+            <p class="CharacteristicsText">effective to prevent someone</p>
+            <p class="CharacteristicsText">from getting infected with</p>
+            <p class="CharacteristicsText">Coronavirus</p>
+        </div>
+        <div class=" Box">
+            <img src="./Assets/insurance.png" alt="insurance" class="BoxImage" id="boximage">
+            <h3 class="MiniTitle">Forming</h3>
+            <h3 class="MiniTitle">antibodies</h3>
+            <p class="CharacteristicsText">COVID-19 vaccine proven to</p>
+            <p class="CharacteristicsText">help shape antibody response for inmune system</p>
+            <p class="CharacteristicsText">for inmune system</p>
+        </div>
+        <div class="Box">
+            <img src="Assets/group-users.png" alt="group-users" class="BoxImage" id="boximage">
+            <h3 class="MiniTitle">Protecting</h3>
+            <h3 class="MiniTitle">people nearby</h3>
+            <p class="CharacteristicsText">The benefits of COVID-19</p>
+            <p class="CharacteristicsText">vaccination are tthe vaccine</p>
+            <p class="CharacteristicsText">that we get can also help</p>
+            <p class="CharacteristicsText">protect people around us</p>
+        </div>
+        <div class="Box">
+            <img src="./Assets/bar-chart.png" alt="line-char" class="BoxImage" id="boximage" >
+            <h3 class="MiniTitle">Protecting</h3>
+            <h3 class="MiniTitle">yourself</h3>
+            <p class="CharacteristicsText">The vaccine that we get can also</p>
+            <p class="CharacteristicsText">help protect you from getting</p>
+            <p class="CharacteristicsText">infected with Coronavirus</p>
+        </div>
+    </section>
 
+        <div class="Footer"></div>
 
+</div>
 </body>
 </html>
